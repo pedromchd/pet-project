@@ -1,3 +1,15 @@
-.azul {
-  color: blue;
+body {
+  background-color: greenyellow;
+}
+
+.header .titulo {
+  color: green;
+}
+
+.header .subtitulo {
+  color: green;
+}
+
+.section span {
+  font-size: 125%;
 }
