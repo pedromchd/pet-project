@@ -1,3 +1,26 @@
-.azul {
-  color: blue;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+}
+
+nav li:hover {
+  background-color: lightblue;
+}
+
+h1 {
+  font-size: 170%;
+  margin: 1%;
+}
+
+p {
+  width: 50%;
 }
