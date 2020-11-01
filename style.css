@@ -10,8 +10,9 @@ nav li#first {
 }
 
 nav li {
-  display: inline;
-  margin: 0.5em;
+  display: inline-block;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   padding: 0.5em;
   border: 1px solid black;
 }
