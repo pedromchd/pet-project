@@ -3,6 +3,8 @@ body {
   line-height: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
   vertical-align: top;
+  background-image: url("champion-morgana-coven-splash.jpg");
+
 }
 
 nav li#first {
@@ -26,9 +28,12 @@ section {
   /* flex-wrap: wrap; */
 }
 
+article#a1 {
+  margin-right: 1em;
+}
+
 article {
   margin-top: 1em;
-  margin-right: 1em;
   padding: 1em;
   border: 1px solid black;
   flex: 50%;
