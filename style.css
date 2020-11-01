@@ -21,28 +21,33 @@ nav li:hover {
   background-color: lightblue;
 }
 
-div {
+section {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+article {
   margin-top: 1em;
+  margin-right: 1em;
   padding: 1em;
-  padding-top: 0;
   border: 1px solid black;
-  margin-right: 50%;
+  flex: 50%;
+  /* width: 35%; */
 }
 
-div h1 {
+article h1 {
   font-size: 1.5em;
-  margin: 1em;
-  margin-left: 0;
+  margin-bottom: 1rem;
 }
 
-div p {
+article p {
   text-align: justify;
 }
 
-div .tab {
+article .tab {
   margin-left: 2em;
 }
 
-div i {
+article i {
   font-style: oblique;
 }
