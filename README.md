@@ -12,4 +12,4 @@ Não esqueça de configurar sua identidade no git com o usuário que usas no Git
 
 Use a extensão `live-server` do Visual Studio Code, através do comando (`CTRL + SHIFT + P`) _Open with Live Server_.
 
-<https://dbo-2020-2-apnp.github.io/pet-project-pedromchd/>
+Github page: <https://dbo-2020-2-apnp.github.io/pet-project-pedromchd/>
