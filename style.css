@@ -1,10 +1,11 @@
 body {
-  margin: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5rem;
-  /* background-image: url("/media/champion-kayle-Morgana-splash.jpg");
-  background-size: cover; */
+  margin: 1rem;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/media/champion-kayle-Morgana-splash.jpg");
+  /* background-image: url("/media/champion-kayle-Morgana-splash.jpg"); */
+  background-size: cover;
 }
 
 /* nav li {
@@ -20,14 +21,25 @@ nav li:hover {
 
 /* section {
   display: flex;
+  flex-wrap: wrap;
 } */
 
 div {
   padding: 1rem;
-  margin-top: 1rem;
   border: 1px solid black;
+  /* flex: 25%; */
+}
+
+div.center {
+  margin: auto;
+  margin-top: 1rem;
   width: 50%;
-  /* flex: 50%; */
+}
+
+div.transbox {
+  background-color: white;
+  opacity: 0.6;
+  text-shadow: 1px 1px silver;
 }
 
 h1 {
