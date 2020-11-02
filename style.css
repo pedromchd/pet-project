@@ -39,6 +39,10 @@ p {
   text-align: justify;
 }
 
+b {
+  font-weight: bold;
+}
+
 blockquote {
   text-align: right;
   font-style: italic;
