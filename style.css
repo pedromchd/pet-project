@@ -1,10 +1,13 @@
 body {
   margin: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   line-height: 1.5rem;
+  /* background-image: url("/media/champion-kayle-Morgana-splash.jpg");
+  background-size: cover; */
 }
 
-nav li {
+/* nav li {
   display: inline-block;
   padding: 0.5em 1em;
   border: 1px solid black;
@@ -13,17 +16,18 @@ nav li {
 nav li:hover {
   font-style: oblique;
   background-color: lightblue;
-}
+} */
 
-section {
+/* section {
   display: flex;
-}
+} */
 
 div {
   padding: 1rem;
   margin-top: 1rem;
   border: 1px solid black;
-  flex: 50%;
+  width: 50%;
+  /* flex: 50%; */
 }
 
 h1 {
@@ -33,4 +37,9 @@ h1 {
 
 p {
   text-align: justify;
+}
+
+blockquote {
+  text-align: right;
+  font-style: italic;
 }
