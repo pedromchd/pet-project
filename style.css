@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   line-height: 1.5rem;
   margin: 1rem;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("media/champion-kayle-Morgana-splash.jpg"), scroll;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("media/champion-kayle-Morgana-splash.jpg");
   /* background-image: url("/media/champion-kayle-Morgana-splash.jpg"); */
   background-size: cover;
 }
@@ -34,7 +34,8 @@ div {
 div.center {
   margin: auto;
   margin-top: 1rem;
-  width: 50%;
+  min-width: 50%;
+  max-width: 90%;
 }
 
 div.transbox {
@@ -59,4 +60,9 @@ b {
 blockquote {
   text-align: right;
   font-style: italic;
+}
+
+img {
+  max-width: 100%;
+  /* opacity: 1 !important; */
 }
