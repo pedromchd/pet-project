@@ -1,0 +1,29 @@
+h1 
+h2 
+p
+h3 
+br 
+em
+i
+b
+abbr
+sub
+sup
+strong
+span
+a
+nav 
+ul
+li
+
+dl
+dt
+dd
+
+img al t
+audio
+video
+
+picture source img 
+
+figure img figcaption
