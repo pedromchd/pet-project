@@ -53,6 +53,10 @@ div {
   /* flex: 25%; */
 }
 
+.image {
+  padding: 0;
+}
+
 .border {
   border: 2px solid silver;
   border-radius: 15px;
@@ -92,4 +96,8 @@ blockquote {
 img {
   max-width: 100%;
   /* opacity: 1 !important; */
+}
+
+.paragrafo {
+  margin: 1.5rem;
 }
