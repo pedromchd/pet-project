@@ -13,16 +13,16 @@
 
 <body>
   <div class="background">
-    <video loop muted autoplay poster="media/champion-kayle-Morgana-splash.jpg" class="background-video">
+    <video loop muted autoplay poster="media/morgana-splash/champion-kayle-Morgana-splash.jpg" class="background-video">
       <source src="media/animated-kayle-morgana-splash.webm">
     </video>
   </div>
 
   <nav>
     <ul class="center">
-      <li class="transbox border">Início</li>
-      <li class="transbox border">Dados</li>
-      <li class="transbox border">Guia</li>
+      <li class="transbox border" id="topo">Início</li>
+      <li class="transbox border"><a href="#dados">Dados</a></li>
+      <li class="transbox border"><a href="#guia">Guia</a></li>
     </ul>
   </nav>
 
@@ -31,14 +31,31 @@
     <h1>Morgana, a Caída</h1>
     <p>"Dividida entre sua natureza mortal e celestial, Morgana prendeu suas asas para preservar sua humanidade e inflige sua dor e amargura nos desonestos e corruptos. Ela rejeita as leis e tradições que considera injustas e luta pela verdade nas sombras de Demacia com escudos e correntes de fogo sombrio, ainda que alguns tentem reprimi-la. Acima de tudo, Morgana acredita que até os banidos e exilados podem um dia se levantar."</p>
     <blockquote><br>"Só quem você ama pode partir seu coração."</blockquote>
-    <p><br>Acompanhe a lore resumida da campeã: <a href="lore.html">A Protetora Alada e a Redentora Velada</a></p>
+    <p><br>Leia a lore resumida da campeã: <a href="lore.html">A Protetora Alada e a Redentora Velada</a></p>
   </div>
 
   <div class="center image">
-    <img src="media/champion-kayle-Morgana-splash.jpg" alt="Morgana Classica Splash Art">
+    <picture>
+      <source srcset="media/morgana-splash/champion-kayle-Morgana-splash-480.jpg" media="(max-width: 480px)">
+      <source srcset="media/morgana-splash/champion-kayle-Morgana-splash-720.jpg" media="(max-width: 720px)">
+      <source srcset="media/morgana-splash/champion-kayle-Morgana-splash-1080.jpg" media="(max-width: 1080px)">
+      <source srcset="media/morgana-splash/champion-kayle-Morgana-splash-1440.jpg" media="(max-width: 1440px)">
+      <img src="media/morgana-splash/champion-kayle-Morgana-splash.jpg" alt="Morgana Classica Splash Art">
+    </picture>
+  </div>
+
+  <div class="center transbox border" id="dados">
+    <h1>Informações em Jogo</h1>
+  </div>
+
+  <div class="center transbox border" id="guia">
+    <h1>Guia da Campeã</h1>
   </div>
   <!-- </section> -->
 
+  <div class="center transbox border">
+    <a href="#topo">Voltar ao Topo</a>
+  </div>
 </body>
 
 </html>

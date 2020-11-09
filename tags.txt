@@ -10,8 +10,8 @@ abbr
 sub
 sup
 strong
-span
-a
+  span
+  a
   nav
   ul
   li
