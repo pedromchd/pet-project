@@ -29,6 +29,7 @@ body {
   left: 1rem;
   max-width: 50%;
   opacity: 0.6;
+  /* volume: soft; */
 }
 
 .audio-text {
@@ -38,10 +39,6 @@ body {
   color: silver;
   /* text-shadow: 1px 1px silver; */
 }
-
-/* audio {
-  volume: soft;
-} */
 
 /* body {
   background-image: url("/media/champion-kayle-Morgana-splash.jpg");
@@ -102,6 +99,21 @@ div {
 .transbox {
   opacity: 0.6;
   text-shadow: 1px 1px silver;
+}
+
+.top-button {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  width: min-content;
+  margin-top: 1rem;
+  padding: 0.5em;
+}
+
+.top-button a {
+  color: black;
+  font-size: small;
+  text-decoration: none;
 }
 
 h1 {
