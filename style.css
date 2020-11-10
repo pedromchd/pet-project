@@ -25,8 +25,8 @@ body {
 
 .background-audio {
   position: fixed;
-  top: 1rem;
-  left: 1rem;
+  bottom: 1rem;
+  right: 1rem;
   max-width: 50%;
   opacity: 0.6;
   /* volume: soft; */
