@@ -23,6 +23,26 @@ body {
   filter: brightness(50%);
 }
 
+.background-audio {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  max-width: 50%;
+  opacity: 0.6;
+}
+
+.audio-text {
+  position: fixed;
+  top: 4.5rem;
+  left: 2rem;
+  color: silver;
+  /* text-shadow: 1px 1px silver; */
+}
+
+/* audio {
+  volume: soft;
+} */
+
 /* body {
   background-image: url("/media/champion-kayle-Morgana-splash.jpg");
   background-size: cover;
@@ -80,7 +100,7 @@ div {
 }
 
 .transbox {
-  opacity: 0.7;
+  opacity: 0.6;
   text-shadow: 1px 1px silver;
 }
 
@@ -103,6 +123,10 @@ i {
 
 blockquote {
   text-align: right;
+}
+
+div img {
+  border: 2px solid silver;
 }
 
 img, video {
