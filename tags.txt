@@ -3,8 +3,8 @@ h2
   p
 h3
   br
-em
-i
+  em
+  i
   b
 abbr
 sub
