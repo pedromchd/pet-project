@@ -49,17 +49,17 @@ body {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("media/champion-kayle-Morgana-splash.jpg");
 } */
 
-ul li {
+nav ul li {
   display: inline-block;
   padding: 0.5em 1em;
   border: 1px solid black;
 }
 
-ul li:hover {
+nav ul li:hover {
   background-color: lightblue;
 }
 
-ul a {
+nav ul a {
   color: black;
   text-decoration: none;
 }
