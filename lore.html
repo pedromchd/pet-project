@@ -16,9 +16,14 @@
       <source src="media/animated-kayle-morgana-login.webm">
     </video>
   </div>
-  <audio controls autoplay class="background-audio">
+  <audio controls autoplay class="background-audio" id="morgana-audio">
     <source src="media/audio-video/audio-kayle-Morgana-login-50k.mp3">
   </audio>
+
+  <script>
+    let audio = document.getElementById("morgana-audio");
+    audio.volume = 0.02;
+  </script>
 
   <nav>
     <ul class="center">
