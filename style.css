@@ -121,6 +121,13 @@ h1 {
   margin-bottom: 1rem;
 }
 
+h2 {
+  font-size: 1.35rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
 p {
   text-align: justify;
 }
@@ -148,4 +155,28 @@ img, video {
 
 .paragrafo {
   margin: 1.5rem;
+}
+
+table {
+  text-shadow: 1px 1px silver;
+  /* border-radius: 15px; */
+}
+
+table tr, td {
+  border: 2px solid silver;
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+table img {
+  width: max-content;
+}
+
+table th {
+  background-color: silver;
+}
+
+table td:first-child {
+  background-color: silver;
+  width: 10%;
 }
