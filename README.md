@@ -15,5 +15,4 @@ Espero que gostem, ficarei feliz se ela insigá-los a querer conhecer um pouco m
 Aqui abaixo links de páginas que usei para pojeção do site:
 
 Lore da Campeã: <https://universe.leagueoflegends.com/pt_BR/champion/morgana/>
-
 Informações em Jogo: <https://br.leagueoflegends.com/pt-br/champions/morgana/>
