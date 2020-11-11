@@ -19,7 +19,7 @@ h3
 abbr
 sub
 sup
-strong
+  strong
 
 dl
 dt
