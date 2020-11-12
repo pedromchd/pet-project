@@ -64,7 +64,7 @@ nav ul a {
   text-decoration: none;
 }
 
-em:hover {
+em:hover, button:hover {
   color: red;
   font-style: oblique;
 }
@@ -103,8 +103,8 @@ div {
 
 .top-button {
   position: fixed;
-  bottom: 0.5rem;
-  right: 0.5rem;
+  bottom: 0;
+  right: 0;
   width: min-content;
   margin-top: 1rem;
   padding: 0.5em;
@@ -114,6 +114,10 @@ div {
   color: black;
   font-size: small;
   text-decoration: none;
+}
+
+button {
+  padding: 0.5rem;
 }
 
 h1 {
