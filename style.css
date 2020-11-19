@@ -1,3 +1,4 @@
+/* pedrão: 16px ou 12pt */
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -122,7 +123,7 @@ button {
 } */
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: 1rem;
 }
 
