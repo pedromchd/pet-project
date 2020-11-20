@@ -4,6 +4,22 @@ html {
   --ascent-color-a: hsla(0, 0%, 20%, 0.3);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ascent-color-a)
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 50%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(0, 0%, 40%);
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -11,6 +27,10 @@ body {
   line-height: 1.5rem;
   margin: 1rem;
 }
+
+/* body:hover {
+  overflow-y: visible;
+} */
 
 .background {
   position: fixed;
