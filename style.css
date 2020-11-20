@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap');
+html {
+  --ascent-color: hsl(0, 0%, 75%);
+  --ascent-color-a: hsla(0, 0%, 20%, 0.3);
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -35,13 +39,13 @@ body {
   /* volume: soft; */
 }
 
-.audio-text {
+/* .audio-text {
   position: fixed;
   top: 4.5rem;
   left: 2rem;
-  color: silver;
-  /* text-shadow: 1px 1px silver; */
-}
+  color: var(--ascent-color);
+  text-shadow: 1px 1px silver;
+} */
 
 /* body {
   background-image: url("/media/champion-kayle-Morgana-splash.jpg");
@@ -55,11 +59,11 @@ body {
 nav ul li {
   display: inline-block;
   padding: 0.5em 1em;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
 }
 
 nav ul li:hover {
-  background-color: hsl(195, 53%, 79%);
+  background-color: hsl(240, 24%, 94%, 0.8);
 }
 
 nav ul a {
@@ -67,9 +71,16 @@ nav ul a {
   text-decoration: none;
 }
 
+#intern-button {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  text-align: right;
+}
+
 em:hover, button:hover {
-  color: hsl(0, 100%, 50%);
-  font-style: oblique;
+  color: #a30021;
+  /* font-style: oblique; */
 }
 
 /* section {
@@ -87,9 +98,10 @@ div {
 }
 
 .border {
-  border: 2px solid hsl(0, 0%, 75%);
+  /* border: 2px solid silver; */
+  border: 2px solid var(--ascent-color-a);
   border-radius: 15px;
-  background-color: #ffffff;
+  /* background-color: hsl(0, 0%, 100%); */
 }
 
 .center {
@@ -100,8 +112,9 @@ div {
 }
 
 .transbox {
-  opacity: 0.6;
-  text-shadow: 1px 1px hsl(0, 0%, 75%);
+  /* opacity: 0.6; */
+  background-color: hsla(0, 0%, 100%, 0.6);
+  text-shadow: 1px 1px var(--ascent-color-a);
 }
 
 .top-button {
@@ -153,8 +166,12 @@ blockquote {
   text-align: right;
 }
 
+div picture img {
+  border: 2px solid var(--ascent-color);
+}
+
 div img {
-  border: 2px solid hsl(0, 0%, 75%);
+  border: 2px solid var(--ascent-color-a);
 }
 
 img, video {
@@ -167,12 +184,13 @@ img, video {
 }
 
 table {
-  text-shadow: 1px 1px hsl(0, 0%, 75%);
+  border-collapse: collapse;
+  text-shadow: 1px 1px var(--ascent-color-a);
   /* border-radius: 15px; */
 }
 
 table tr, td {
-  border: 2px solid hsl(0, 0%, 75%);
+  border: 2px solid var(--ascent-color-a);
   padding: 0.5rem;
   vertical-align: top;
 }
@@ -182,11 +200,11 @@ table img {
 }
 
 table th {
-  background-color: hsl(0, 0%, 75%);
+  background-color: var(--ascent-color-a);
 }
 
 table td:first-child {
-  background-color: hsl(0, 0%, 75%);
+  background-color: var(--ascent-color-a);
   width: 10%;
 }
 
