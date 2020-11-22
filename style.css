@@ -164,6 +164,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Roboto', sans-serif;
   font-size: 1.35rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -204,7 +205,10 @@ img, video {
 }
 
 table {
-  border-collapse: collapse;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  border-spacing: 1px;
   text-shadow: 1px 1px var(--ascent-color-a);
   /* border-radius: 15px; */
 }
