@@ -4,7 +4,11 @@ html {
   --ascent-color-a: hsla(0, 0%, 20%, 0.3);
 }
 
-::-webkit-scrollbar {
+* {
+  box-sizing: border-box;
+}
+
+/* ::-webkit-scrollbar {
   width: 10px;
 }
 
@@ -18,7 +22,7 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(0, 0%, 40%);
-}
+} */
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -114,7 +118,7 @@ div {
 }
 
 .image {
-  padding: 0;
+  padding: 1rem;
 }
 
 .border {
@@ -207,7 +211,7 @@ img, video {
 table {
   display: table;
   border-collapse: separate;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   border-spacing: 1px;
   text-shadow: 1px 1px var(--ascent-color-a);
   /* border-radius: 15px; */
