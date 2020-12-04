@@ -42,5 +42,4 @@
   "workbench.sideBar.location": "right",
   "editor.renderWhitespace": "boundary",
   "editor.renderControlCharacters": true,
-  "liveServer.settings.port": 5501,
 }
