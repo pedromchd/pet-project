@@ -142,11 +142,11 @@ section div:last-of-type {
 }
 
 section h2 {
-  padding: 0.15rem;
+  line-height: 1.75rem;
   width: fit-content;
 }
 
-section h2:hover {
+section h2:hover, #guia h2:hover {
   position: relative;
   transform: translateX(2rem);
 }
