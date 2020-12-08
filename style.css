@@ -14,6 +14,10 @@ html, body {
   transition: all 0.2s;
 }
 
+body {
+  margin: 0.5rem 0;
+}
+
 .background {
   position: fixed;
   top: 0;
@@ -43,16 +47,24 @@ span#topo {
   left: 0;
 }
 
-nav {
-  margin: 1rem 0;
+header, main, footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav, main>*, section {
+  width: 50%;
+  margin: 0.5rem 0;
 }
 
 nav ul {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 nav li {
-  display: inline-block;
+  text-align: center;
   border: 2px solid var(--ascent-color-b);
   padding: 0.5rem 1.5rem;
   background-color: var(--ascent-color-a);
@@ -72,21 +84,22 @@ nav li:last-of-type {
   border-radius: 0 15px 15px 0;
 }
 
-main div, picture>img {
-  display: block;
-  width: 50%;
-  margin: 1rem auto;
+main div {
+  padding: 1rem;
+  background-color: var(--ascent-color-a);
   border: 2px solid var(--ascent-color-b);
   border-radius: 15px;
 }
 
-main div {
-  padding: 1rem;
-  background-color: var(--ascent-color-a);
-}
-
 main div *:last-child {
   margin-bottom: 0;
+}
+
+picture>img {
+  display: block;
+  max-width: 100%;
+  border: 2px solid var(--ascent-color-b);
+  border-radius: 15px;
 }
 
 table {
@@ -110,11 +123,6 @@ table img {
   width: 40px;
 }
 
-section {
-  width: 50%;
-  margin: 1rem auto;
-}
-
 section div {
   margin: 0.5rem 0;
   display: block;
@@ -124,10 +132,12 @@ section div {
 }
 
 section div:first-of-type {
+  margin-top: 0;
   border-radius: 15px 15px 0 0;
 }
 
 section div:last-of-type {
+  margin-bottom: 0;
   border-radius: 0 0 15px 15px;
 }
 
